@@ -6,12 +6,12 @@
   "scripts": {
     "start": "nodemon server",
     "seedDB": "node database/fakerTest.js",
-    "react-dev": "webpack -d --watch",
+    "react-dev": "webpack-dev-server --mode development --open --hot",
     "sqliteShell": "sqlite3 fakePrices",
     "queryPricesDB": "node database/pricesDB.js"
   },
   "keywords": [],
-  "author": "Michael Cheng <cheng.c.mike@gmail.com> (http://michaelcheng.io)",
+  "author": "Brett Cunningham II",
   "license": "ISC",
   "dependencies": {
     "faker": "^4.1.0",
